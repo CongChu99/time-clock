@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Linux Clock App
+Comment=A lightweight floating desktop clock widget for Linux
+Exec=linux-clock-app
+Icon=io.github.user.LinuxClockApp
+Terminal=false
+Type=Application
+Categories=Utility;Clock;
+StartupNotify=true

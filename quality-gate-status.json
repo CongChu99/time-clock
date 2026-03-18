@@ -1,0 +1,50 @@
+{
+  "schema_version": "1",
+  "generated_at": "2026-03-17T09:41:23Z",
+  "expires_at": "2026-03-17T10:41:23Z",
+  "gate_id": "time-down-8de",
+  "overall_pass": true,
+  "checks": {
+    "codex_review": {
+      "pass": true,
+      "critical_count": 0,
+      "high_count": 0,
+      "medium_count": 2,
+      "low_count": 2,
+      "ran_at": "2026-03-17T08:58:41Z",
+      "findings": [
+        {
+          "severity": "MEDIUM",
+          "file": "clock_window.py",
+          "line": 367,
+          "message": "font_size not bounded/cast before CSS interpolation"
+        },
+        {
+          "severity": "MEDIUM",
+          "file": "clock_window.py",
+          "line": 552,
+          "message": "Gtk.MessageDialog deprecated GTK 4.10+"
+        },
+        {
+          "severity": "LOW",
+          "file": "clock_window.py",
+          "line": 36,
+          "message": "import re placed after module-level constants (PEP8 E402)"
+        },
+        {
+          "severity": "LOW",
+          "file": "clock_controller.py",
+          "line": 76,
+          "message": "lstrip fallback fragile for future format changes"
+        }
+      ],
+      "summary": "0 critical, 0 high — all HIGH issues resolved. 2 medium, 2 low remain (informational)."
+    },
+    "bd_preflight": {
+      "pass": true,
+      "ran_at": "2026-03-17T09:41:23Z",
+      "issues": [],
+      "note": "bd preflight Go checks skipped (Python project). Manual checks: 30/30 tests pass, 0 TODO/FIXME, clean git status."
+    }
+  }
+}

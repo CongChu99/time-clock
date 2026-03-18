@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "linux-clock-app"
+version = "0.1.0"
+description = "A GTK4 desktop clock widget application for Linux"
+authors = [{name = "Linux Clock App Contributors"}]
+requires-python = ">=3.10"
+dependencies = [
+    "PyGObject>=3.42.0",
+]
+
+[project.scripts]
+linux-clock-app = "linux_clock_app.__main__:main"

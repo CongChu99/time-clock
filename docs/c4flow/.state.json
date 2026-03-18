@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "currentState": "VERIFY",
+  "feature": {
+    "name": "Linux Clock App",
+    "slug": "linux-clock-app",
+    "description": "Tạo app đồng hồ hiển thị trên màn hình Linux"
+  },
+  "mode": "research",
+  "startedAt": "2026-03-17",
+  "completedStates": [
+    "RESEARCH",
+    "SPEC",
+    "BEADS",
+    "CODE",
+    "TEST",
+    "REVIEW"
+  ],
+  "failedAttempts": 0,
+  "beadsEpic": "time-down-61q",
+  "doltRemote": null,
+  "worktree": null,
+  "prNumber": null,
+  "lastError": null
+}
